@@ -1,0 +1,90 @@
+.height-85 {
+    height: 85px;
+    box-shadow: 0 .1rem 1rem rgba(0,0,0,.15);
+}
+
+.height-imagem-logo {
+    height: 85px;
+}
+
+.btn {
+    display: block;
+    width: 45%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #806f6f, #38d39f, #b4975a);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Zen Old Mincho', serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    cursor: pointer;
+    transition: .5s;
+    padding-top: 11px;
+    margin-left: 130px;
+}
+
+.btn:hover {
+    background-position: right;
+    color: white !important;
+}
+
+.link-topo {
+    padding: 1.2em;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none !important;
+    color: #b4975a;
+    line-height: 1.6;
+    font-size: 1em;
+    transition: 0.7s;
+}
+
+.link-topo:hover {
+    color: #38d39f;
+}
+
+.margin-top-27 {
+    margin-top: 27px;
+}
+
+.height-550 {
+    background-image: linear-gradient( #e5ece8 70%, #aea4a4 100%);
+    height: 655px;
+    padding-top: 30px;
+}
+
+.row-box-shadow {
+    box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    height: 600px;
+    background-color: white;
+}
+
+.wave {
+    bottom: 0;
+    left: 0;
+    height: 537px;
+    z-index: -1;
+    margin-top: 64px;
+    margin-left: -12px;
+    border-bottom: 120px;
+}
+
+.imagem-bg {
+    width: 320px;
+    margin-top: 320px;
+    margin-left: -400px;
+}
+
+.div-box-shadow {
+    box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    margin-top: 35px;
+    height: 530px;
+    width: 95%;
+    margin-left: 16px;
+}
