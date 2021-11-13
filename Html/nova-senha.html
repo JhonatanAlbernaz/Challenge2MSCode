@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
     <link href="../Css/app.css" rel="stylesheet">
 
-    <title> Login </title>
+    <title> Central de controle </title>
   </head>
   <body>
     
@@ -68,45 +68,23 @@
       <div class="row row-box-shadow">
        <div class="col-lg-6 d-none-imagens">
         <img class="wave" src="../Imagens/wave.png">
-        <img class="imagem-bg" src="../Imagens/banner-image-2.png" id="image-animation">
+        <img class="banner-image-png" src="../Imagens/banner-image.png" id="image-animation">
        </div>
        <div class="col-lg-6">
         <div class="div-box-shadow-login">
-         <h2> Login </h2>
-
-         <div class="div-login-content margin-top-20 height-590">
-          <form class="form" action="login.html">
+         <h2 class="h2-alterar-senha"> CENTRAL DE CONTROLE </h2>
            
-           <div class="input-div one">
-            <div class="i">
-             <i class="fas fa-id-card-alt"></i>
-            </div>
-            <div class="div">
-             <h5> CPF </h5>
-             <input type="text" class="input">
-            </div>
-           </div>
- 
-           <div class="input-div pass">
-            <div class="i"> 
-             <i class="fas fa-envelope"></i>
-            </div>
-            <div class="div">
-             <h5> Senha de acesso </h5>
-             <input type="password" class="input">
-            </div>
-           </div>
-          </form>
-         </div>
+          <p class="conteudo-para-alterar-senha">
+            Como foi solicitado geramos essa nova senha para você, se precisar de 
+            ajuda é só entrar em contado com a nossa equipe de suporte
+          </p>
+          
+          <div class="input-box">
+           <input type="text" placeholder="Gerar senha" id="password" readonly="">
+           <div id="btn" onclick="getPassword()">Gerar senha</div>
+          </div>
 
-         <div class="div-espacamento margin-left-58">
-          <small> Não possui uma conta? <a href="../Html/cadastrar.html">  Cadastre-se </a></small>
-         </div>
-         <a href="#" class="btn margin-top-40" value="Login"> Logar </a>
-         <div class="div-espacamento-small">
-          <small class="margin-right-230"><a class="text-decoration" href="../Html/recuperar-senha.html"> Recuperar senha </a></small>
-          <small><a class="text-decoration" href="../Html/esqueceu-seu-senha.html"> Esqueceu sua senha? </a></small>
-         </div>
+         <a href="../Html/login.html" class="btn margin-top-40 margin-bottom-35" value="Login"> Voltar </a>
          <span class="politica-de-privacidade"> Concordo com os <a class="" href="#"> Termos de Uso </a>  e 
           <a class="margin-left-80" href="#"> Política de Privacidade. </a></span>
 
