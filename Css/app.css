@@ -321,6 +321,28 @@
     font-family: 'Lora', serif;
 }
 
+.descricao-para-o-usuario {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    width: 450px;
+    margin-left: 31px;
+}
+
+.wade-widht {
+    width: 280px;
+    margin-top: -225px;
+    margin-left: 235px;
+    z-index: 1000;
+    position: absolute;
+}
+
+.imagem-bg-invertida {
+    transform: scaleX(-1);
+    margin-left: 116px !important;
+}
+
 @media (max-width: 320px) {
     .row-responsivo {
         display: block;
@@ -508,6 +530,21 @@
     .margin-left-58 {
         margin-left: 13px;
     }
+
+    .font-size-2rem {
+        font-size: 1.3rem !important;
+        margin-left: 2px !important;
+        padding-top: 35px !important;
+    }
+
+    .descricao-para-o-usuario {
+        text-align: center;
+        margin-top: 22px;
+        font-family: 'Merriweather', serif;
+        font-size: 16px;
+        width: 240px;
+        margin-left: 8px;
+    }
 }
   
 @media (min-width: 321px) and (max-width: 375px) {  
@@ -689,6 +726,21 @@
         margin-left: 8px;
         background-color: white;
     }
+
+    .font-size-2rem {
+        font-size: 1.6rem !important;
+        margin-left: 2px !important;
+        padding-top: 45px !important;
+    }
+
+    .descricao-para-o-usuario {
+        text-align: center;
+        margin-top: 22px;
+        font-family: 'Merriweather', serif;
+        font-size: 16px;
+        width: 310px;
+        margin-left: 2px;
+    }
 }
   
 @media (min-width:  376px) and (max-width: 576px) {
@@ -866,6 +918,20 @@
     .margin-left-58 {
         margin-left: 58px;
     }
+
+    .font-size-2rem {
+        font-size: 1.7rem !important;
+        margin-left: 2px !important;
+    }
+
+    .descricao-para-o-usuario {
+        text-align: center;
+        margin-top: 22px;
+        font-family: 'Merriweather', serif;
+        font-size: 16px;
+        width: 310px;
+        margin-left: 20px;
+    }
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -1001,6 +1067,15 @@
     .margin-right-230 {
         margin-right: 375px;
     }
+
+    .descricao-para-o-usuario {
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-size: 16px;
+        width: 450px;
+        margin-left: 105px;
+    }
       
 }
   
@@ -1062,6 +1137,32 @@
 
     .margin-right-230 {
         margin-right: 145px;
+    }
+
+    .font-size-2rem {
+        font-size: 2rem !important;
+    }
+
+    .descricao-para-o-usuario {
+        text-align: center;
+        margin-top: 30px;
+        font-family: 'Merriweather', serif;
+        font-size: 16px;
+        width: 420px;
+        margin-left: 5px;
+    }
+
+    .imagem-bg-invertida {
+        transform: scaleX(-1);
+        margin-left: 26px !important;
+    }
+
+    .wade-widht {
+        width: 280px;
+        margin-top: -225px;
+        margin-left: 150px;
+        z-index: 1000;
+        position: absolute;
     }
 }
   
