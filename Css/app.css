@@ -331,9 +331,9 @@
 }
 
 .wade-widht {
-    width: 280px;
-    margin-top: -225px;
-    margin-left: 235px;
+    width: 260px;
+    margin-top: -250px;
+    margin-left: 260px;
     z-index: 1000;
     position: absolute;
 }
@@ -1160,6 +1160,14 @@
     .wade-widht {
         width: 280px;
         margin-top: -225px;
+        margin-left: 150px;
+        z-index: 1000;
+        position: absolute;
+    }
+
+    .wade-widht {
+        width: 260px;
+        margin-top: -246px;
         margin-left: 150px;
         z-index: 1000;
         position: absolute;
