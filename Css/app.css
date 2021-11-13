@@ -9,7 +9,7 @@
 
 .btn {
     display: block;
-    width: 45%;
+    width: 65%;
     height: 50px;
     border-radius: 25px;
     outline: none;
@@ -24,7 +24,7 @@
     cursor: pointer;
     transition: .5s;
     padding-top: 11px;
-    margin-left: 130px;
+    margin-left: 105px;
 }
 
 .btn:hover {
