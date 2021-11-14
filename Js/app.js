@@ -86,28 +86,6 @@ function getPassword() {
 
 //============================================================================//
 
-var menu_aberto = 0;
-
-$("#botao-menu-bobile").on("click", function(e) {
-
-    if(menu_aberto == 0) {
-        menuAberto();
-    }else {
-        menuFechado();
-    }
-
-});
-
-function menuAberto() {
-    $("#link-menu-mobile").show("2500");
-    menu_aberto = 1;
-}
-
-function menuFechado() {
-    $("#link-menu-mobile").hide("2500");
-    menu_aberto = 0;
-}
-
 $("#enviar").on("click", function(e) {
 
     var valor_input_nome = $("#nome").val();
@@ -214,3 +192,5 @@ function emailVerificado(valor_input_email) {
         return false;
     }
 }
+
+//============================================================================//

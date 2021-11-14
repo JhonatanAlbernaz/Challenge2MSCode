@@ -515,15 +515,73 @@ main .data input[type="date"] {
     height: 115px;
 }
 
-.background-image8 {
-    background-image: url(https://bootstrapmade.com/demo/templates/Regna/assets/img/hero-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 35.5em;
-}
-
 .height-3 {
     height: 3em;
+}
+
+.h2-servicos {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-top: 55px;
+    font-family: 'Zen Antique Soft', serif;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.fa-shopping-cart {
+    margin-top: 170px;
+    color: white;
+    background-color: #b4975a;
+    padding: 22px;
+    font-size: 35px;
+    border-radius: 100%;
+    width: 82px;
+}
+
+.fa-laptop {
+    color: white;
+    margin-top: 60px;
+    background-color: #b4975a;
+    padding: 22px;
+    font-size: 35px;
+    border-radius: 100%;
+    width: 82px;
+    padding-left: 20px;
+}
+
+.fa-lock {
+    margin-top: 170px;
+    color: white;
+    background-color: #b4975a;
+    padding: 22px;
+    font-size: 35px;
+    border-radius: 100%;
+    width: 80px;
+}
+
+.font-family-playfair {
+    font-family: 'Playfair Display', serif
+}
+
+.font-family-zen {
+    font-family: 'Zen Antique Soft', serif;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.height-490 {
+    height: 500px;
+}
+
+.height-565 {
+    height: 565px;
+}
+
+.margin-top-55 {
+    margin-top: 55px;
 }
 
 @media (max-width: 320px) {
@@ -794,11 +852,51 @@ main .data input[type="date"] {
 
     .offset-3 {
         margin-left: unset;
+        margin-top: 35px;
+    }
+    
+    .margin-top-55 {
+        margin-top: 55px;
+        margin-left: 45px;
     }
 
-    .button-contato {
-        margin-left: 50px;
-        margin-top: 45px;
+    .h2-display-none {
+        display: block;
+    }
+
+    .h2-display-block {
+        display: none;
+    }
+
+    .padding-top-50 {
+        padding-top: unset;
+    }
+
+    .h2-servicos {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 1.9rem;
+        padding-top: 55px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: 5px;
+        text-align: center;
+        margin-bottom: -118px;
+    }
+
+    .height-1000 {
+        height: 1030px;
+    }
+
+    .height-945 {
+        height: 975px;
+    }
+
+    .margin-top-20px {
+        margin-top: -40px;
+    }
+
+    .margin-top-130 {
+        margin-top: -150px;
     }
 }
   
@@ -1062,11 +1160,51 @@ main .data input[type="date"] {
 
     .offset-3 {
         margin-left: unset;
+        margin-top: 35px;
+    }
+    
+    .margin-top-55 {
+        margin-top: 55px;
+        margin-left: 60px;
     }
 
-    .button-contato {
-        margin-left: 60px;
-        margin-top: 45px;
+    .h2-display-none {
+        display: block;
+    }
+
+    .h2-display-block {
+        display: none;
+    }
+
+    .padding-top-50 {
+        padding-top: unset;
+    }
+
+    .h2-servicos {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 2.1rem;
+        padding-top: 55px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: 5px;
+        text-align: center;
+        margin-bottom: -118px;
+    }
+
+    .height-1000 {
+        height: 1015px;
+    }
+
+    .height-945 {
+        height: 960px;
+    }
+
+    .margin-top-20px {
+        margin-top: -20px;
+    }
+
+    .margin-top-130 {
+        margin-top: -130px;
     }
 }
   
@@ -1320,11 +1458,51 @@ main .data input[type="date"] {
 
     .offset-3 {
         margin-left: unset;
+        margin-top: 35px;
+    }
+    
+    .margin-top-55 {
+        margin-top: 55px;
+        margin-left: 60px;
     }
 
-    .button-contato {
-        margin-left: 70px;
-        margin-top: 45px;
+    .h2-display-none {
+        display: block;
+    }
+
+    .h2-display-block {
+        display: none;
+    }
+
+    .padding-top-50 {
+        padding-top: unset;
+    }
+
+    .h2-servicos {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 2.3rem;
+        padding-top: 55px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: 5px;
+        text-align: center;
+        margin-bottom: -118px;
+    }
+
+    .height-1000 {
+        height: 1000px;
+    }
+
+    .height-945 {
+        height: 945px;
+    }
+
+    .margin-top-20px {
+        margin-top: -20px;
+    }
+
+    .margin-top-130 {
+        margin-top: -130px;
     }
 }
   
@@ -1506,11 +1684,29 @@ main .data input[type="date"] {
 
     .offset-3 {
         margin-left: unset;
+        margin-top: 35px;
     }
 
     .button-contato {
         margin-left: 120px;
         margin-top: 45px;
+    }
+
+    .h2-display-none {
+        display: none;
+    }
+
+    .h2-display-block {
+        display: block;
+    }
+
+    .padding-top-50 {
+        padding-top: unset;
+    }
+    
+    .margin-top-55 {
+        margin-top: 55px;
+        margin-left: 105px;
     }
       
 }
@@ -1655,6 +1851,15 @@ main .data input[type="date"] {
         margin-left: 30px;
         margin-bottom: 55px;
     }
+
+    .h2-display-none {
+        display: none;
+    }
+
+    .margin-top-55 {
+        margin-top: 55px;
+        margin-left: 100px;
+    }
 }
   
 @media (min-width: 1201px) {
@@ -1663,6 +1868,10 @@ main .data input[type="date"] {
     }
 
     .imagem-dnone {
+        display: none;
+    }
+
+    .h2-display-none {
         display: none;
     }
 }
