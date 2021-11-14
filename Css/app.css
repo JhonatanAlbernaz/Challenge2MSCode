@@ -510,6 +510,22 @@ main .data input[type="date"] {
     margin-left: 140px;
 }
 
+.topo {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    height: 115px;
+}
+
+.background-image8 {
+    background-image: url(https://bootstrapmade.com/demo/templates/Regna/assets/img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 35.5em;
+}
+
+.height-3 {
+    height: 3em;
+}
+
 @media (max-width: 320px) {
     .row-responsivo {
         display: block;
@@ -775,6 +791,15 @@ main .data input[type="date"] {
         margin-left: 30px;
         margin-bottom: 55px;
     }
+
+    .offset-3 {
+        margin-left: unset;
+    }
+
+    .button-contato {
+        margin-left: 50px;
+        margin-top: 45px;
+    }
 }
   
 @media (min-width: 321px) and (max-width: 375px) {  
@@ -1034,6 +1059,15 @@ main .data input[type="date"] {
         margin-left: 30px;
         margin-bottom: 55px;
     }
+
+    .offset-3 {
+        margin-left: unset;
+    }
+
+    .button-contato {
+        margin-left: 60px;
+        margin-top: 45px;
+    }
 }
   
 @media (min-width:  376px) and (max-width: 576px) {
@@ -1283,6 +1317,15 @@ main .data input[type="date"] {
         margin-left: 30px;
         margin-bottom: 55px;
     }
+
+    .offset-3 {
+        margin-left: unset;
+    }
+
+    .button-contato {
+        margin-left: 70px;
+        margin-top: 45px;
+    }
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -1459,6 +1502,15 @@ main .data input[type="date"] {
         margin-top: -45px;
         margin-left: 30px;
         margin-bottom: 55px;
+    }
+
+    .offset-3 {
+        margin-left: unset;
+    }
+
+    .button-contato {
+        margin-left: 120px;
+        margin-top: 45px;
     }
       
 }
