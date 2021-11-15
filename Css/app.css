@@ -361,7 +361,7 @@
 
 .margin-bottom-185 {
     margin-bottom: 160px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 .imagem-register {
@@ -507,7 +507,7 @@ main .data input[type="date"] {
 
 .margin-bottom-35 {
     margin-bottom: 35px;
-    margin-left: 140px;
+    margin-left: 100px;
 }
 
 .topo {
@@ -584,6 +584,64 @@ main .data input[type="date"] {
     margin-top: 55px;
 }
 
+.div-box-shadow-sobre-nos {
+    box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    margin-top: 35px;
+    height: 655px;
+    width: 95%;
+    background-color: white;
+}
+
+.div-box-shadow-sobre-nos h2 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-top: 55px;
+    font-family: 'Zen Antique Soft', serif;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.div-box-shadow-sobre-nos i {
+    margin-top: 40px;
+    color: white;
+    background-color: #b4975a;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.div-box-shadow-sobre-nos span {
+    font-family: 'Montagu Slab', serif;
+    font-size: 20px;
+}
+
+.tag-p-sobre-nos {
+    font-family: 'Zen Old Mincho', serif;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.height-765 {
+    background-image: linear-gradient( #e5ece8 70%, #aea4a4 100%);
+    height: 765px;
+    padding-top: 30px;
+}
+
+.margin-left-70 {
+    margin-left: 70px;
+}
+
+.margin-left-7 {
+    margin-left: 75px;
+}
+
+.margin-left-65 {
+    margin-left: 65px;
+}
+
 @media (max-width: 320px) {
     .row-responsivo {
         display: block;
@@ -628,7 +686,7 @@ main .data input[type="date"] {
 
     .margin-top-40 {
         margin-top: 40px;
-        margin-left: 38px;
+        margin-left: 45px;
         margin-bottom: 25px;
         width: 175px;
     }
@@ -810,7 +868,7 @@ main .data input[type="date"] {
     .margin-top-1 {
         margin-top: 1px;
         margin-bottom: 25px;
-        margin-left: 70px;
+        margin-left: 45px;
     }
 
     .senha {
@@ -829,13 +887,13 @@ main .data input[type="date"] {
 
     .margin-bottom-55 {
         margin-bottom: 55px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .margin-top-70 {
         margin-top: 25px;
         margin-bottom: 25px;
-        margin-left: 70px;
+        margin-left: 50px;
     }
 
     .font-size-2rem {
@@ -898,6 +956,31 @@ main .data input[type="date"] {
     .margin-top-130 {
         margin-top: -150px;
     }
+
+    .div-box-shadow-sobre-nos {
+        box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+        border-radius: 30px;
+        margin-top: 35px;
+        height: 1945px;
+        width: 95%;
+        background-color: white;
+    }
+
+    .height-765 {
+        background-image: linear-gradient( #e5ece8 70%, #aea4a4 100%);
+        height: 2040px;
+        padding-top: 20px;
+    }
+
+    .div-box-shadow-sobre-nos h2 {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        padding-top: 55px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: 5px;
+        text-align: center;
+    }
 }
   
 @media (min-width: 321px) and (max-width: 375px) {  
@@ -944,7 +1027,7 @@ main .data input[type="date"] {
 
     .margin-top-40 {
         margin-top: 40px;
-        margin-left: 77px;
+        margin-left: 55px;
         margin-bottom: 25px;
     }
 
@@ -1137,13 +1220,13 @@ main .data input[type="date"] {
 
     .margin-bottom-55 {
         margin-bottom: 55px;
-        margin-left: 85px;
+        margin-left: 60px;
     }
 
     .margin-top-70 {
         margin-top: 25px;
         margin-bottom: 25px;
-        margin-left: 85px;
+        margin-left: 60px;
     }
 
     .font-size-2rem {
@@ -1206,6 +1289,35 @@ main .data input[type="date"] {
     .margin-top-130 {
         margin-top: -130px;
     }
+
+    .div-box-shadow-sobre-nos {
+        box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+        border-radius: 30px;
+        margin-top: 35px;
+        height: 1785px;
+        width: 95%;
+        background-color: white;
+    }
+
+    .height-765 {
+        background-image: linear-gradient( #e5ece8 70%, #aea4a4 100%);
+        height: 1880px;
+        padding-top: 20px;
+    }
+
+    .div-box-shadow-sobre-nos h2 {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 2.1rem;
+        padding-top: 55px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: 5px;
+        text-align: center;
+    }
+
+    .margin-left-65 {
+        margin-left: 55px;
+    }
 }
   
 @media (min-width:  376px) and (max-width: 576px) {
@@ -1252,7 +1364,7 @@ main .data input[type="date"] {
 
     .margin-top-40 {
         margin-top: 40px;
-        margin-left: 100px;
+        margin-left: 65px;
         margin-bottom: 25px;
     }
 
@@ -1435,13 +1547,13 @@ main .data input[type="date"] {
 
     .margin-bottom-55 {
         margin-bottom: 55px;
-        margin-left: 100px;
+        margin-left: 70px;
     }
 
     .margin-top-70 {
         margin-top: 45px;
         margin-bottom: 25px;
-        margin-left: 100px;
+        margin-left: 70px;
     }
 
     .font-size-2rem {
@@ -1504,6 +1616,25 @@ main .data input[type="date"] {
     .margin-top-130 {
         margin-top: -130px;
     }
+
+    .div-box-shadow-sobre-nos {
+        box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+        border-radius: 30px;
+        margin-top: 35px;
+        height: 1675px;
+        width: 95%;
+        background-color: white;
+    }
+
+    .height-765 {
+        background-image: linear-gradient( #e5ece8 70%, #aea4a4 100%);
+        height: 1780px;
+        padding-top: 20px;
+    }
+
+    .margin-left-65 {
+        margin-left: 65px;
+    }
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -1540,7 +1671,7 @@ main .data input[type="date"] {
 
     .margin-top-40 {
         margin-top: 40px;
-        margin-left: 180px;
+        margin-left: 115px;
         margin-bottom: 25px;
     }
 
@@ -1651,7 +1782,7 @@ main .data input[type="date"] {
 
     .margin-bottom-185 {
         margin-bottom: 160px;
-        margin-left: 180px;
+        margin-left: 115px;
     }
 
     .padding-top-30 {
@@ -1667,12 +1798,12 @@ main .data input[type="date"] {
     .margin-top-70 {
         margin-top: 70px;
         margin-bottom: 25px;
-        margin-left: 180px;
+        margin-left: 120px;
     }
 
     .margin-bottom-55 {
         margin-bottom: 80px;
-        margin-left: 180px;
+        margin-left: 120px;
     }
 
     .input-box {
@@ -1706,6 +1837,25 @@ main .data input[type="date"] {
     
     .margin-top-55 {
         margin-top: 55px;
+        margin-left: 105px;
+    }
+
+    .div-box-shadow-sobre-nos {
+        box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+        border-radius: 30px;
+        margin-top: 35px;
+        height: 925px;
+        width: 95%;
+        background-color: white;
+    }
+
+    .height-765 {
+        background-image: linear-gradient( #e5ece8 70%, #aea4a4 100%);
+        height: 1025px;
+        padding-top: 30px;
+    }
+
+    .margin-left-65 {
         margin-left: 105px;
     }
       
@@ -1751,6 +1901,7 @@ main .data input[type="date"] {
 
     .margin-top-40 {
         margin-top: 40px;
+        margin-left: 100px;
     }
 
     .politica-de-privacidade {
@@ -1812,7 +1963,7 @@ main .data input[type="date"] {
 
     .margin-bottom-185 {
         margin-bottom: 135px;
-        margin-left: 100px;
+        margin-left: 110px;
     }
 
     .imagem-log-svg {
@@ -1859,6 +2010,21 @@ main .data input[type="date"] {
     .margin-top-55 {
         margin-top: 55px;
         margin-left: 100px;
+    }
+
+    .div-box-shadow-sobre-nos {
+        box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+        border-radius: 30px;
+        margin-top: 35px;
+        height: 680px;
+        width: 95%;
+        background-color: white;
+    }
+
+    .height-765 {
+        background-image: linear-gradient( #e5ece8 70%, #aea4a4 100%);
+        height: 780px;
+        padding-top: 30px;
     }
 }
   
