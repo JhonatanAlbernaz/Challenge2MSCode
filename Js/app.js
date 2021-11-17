@@ -220,3 +220,27 @@ $(document).ready(function(){
 });
 
 //============================================================================//
+
+var menu_aberto_aberto = 0;
+
+$("#jhonatan-tag-a").on("click", function(e){
+
+	if(menu_aberto_aberto == 0){
+		abrirMenu();
+	}else{
+		fecharMenu();
+	}
+	
+});
+
+function abrirMenu(){
+	$("#div-email").show(2500);
+	menu_aberto_aberto = 1;
+}
+
+function fecharMenu(){
+	$("#div-email").hide(2500);
+	menu_aberto_aberto = 0;
+}
+
+//============================================================================//
