@@ -244,3 +244,29 @@ function fecharMenu(){
 }
 
 //============================================================================//
+
+var image_avatar = 0;
+
+$("#button-bars").on("click", function(e){
+
+	if(image_avatar == 0){
+		abrirImagemAvatar();
+	}else{
+		fecharImagemAvatar();
+	}
+	
+});
+
+function abrirImagemAvatar(){
+    $("#layoutSidenav_nav").css("transform", "translateX(-15rem");
+	$("#layoutSidenav_content").css("margin-left", "-240px");
+	image_avatar = 1;
+}
+
+function fecharImagemAvatar(){
+    $("#layoutSidenav_nav").css("transform", "translateX(0rem");
+	$("#layoutSidenav_content").css("margin-left", "0px");
+	image_avatar = 0;
+}
+
+//============================================================================//

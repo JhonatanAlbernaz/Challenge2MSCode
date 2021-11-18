@@ -840,6 +840,62 @@ a {
     display: none;
 }
 
+#layoutSidenav_nav {
+    width: 15rem;
+    height: 100vh;
+    z-index: 1038;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    transform: translateX(0);
+    flex-basis: 15rem;
+    flex-shrink: 0;
+    transition: transform 0.15s ease-in-out;
+    transition: 0.7s;
+}
+
+#layoutSidenav_content {
+    padding-left: 15rem;
+    top: 3.625rem;
+    margin-left: 0;
+    transition: margin 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 0;
+    flex-grow: 1;
+    min-height: calc(100vh - 3.625rem);
+    transition: 0.7s;
+}
+
+.nav-bar-lateral {
+    padding-top: 3.625rem;
+    background-color: #fff;
+    color: #212832;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: nowrap;
+    font-size: 0.9rem;
+    box-shadow: 0.15rem 0 0.55rem 0 rgb(33 40 50 / 15%);
+    margin-top: 58px;
+}
+
+.flex-direction {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.div-layoutSidenav-content {
+    background-color: #0061f2 !important;
+    background-image: linear-gradient( 135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+    height: 255px;
+}
+
 @media (max-width: 320px) {
     .row-responsivo {
         display: block;
@@ -1179,6 +1235,48 @@ a {
         margin-left: 5px;
         text-align: center;
     }
+
+    .margin-left-65 {
+        margin-left: 55px;
+    }
+
+    .span-d-none {
+        display: none;
+    }
+
+    .link-admin-pro {
+        display: none;
+    }
+
+    .div-email-login {
+        position: absolute;
+        font-size: .85rem;
+        box-shadow: 0 0.15rem 1.75rem 0 rgb(58 59 69 / 15%);
+        height: 147px;
+        width: 175px;
+        margin-top: 17px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: left;
+        padding-top: 15px;
+        line-height: 25px;
+        margin-left: -15px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: -114px;
+    }
+
+    .ul-nav-bar {
+        margin-left: 95px;
+        height: 4.375rem;
+        display: flex;
+        align-items: center;
+        padding: 0 .75rem;
+        padding-top: 1.3125rem;
+        padding-bottom: 0.3125rem;
+        text-align: center;
+        width: 18em;
+        font-size: 1.1rem;
+    }
 }
   
 @media (min-width: 321px) and (max-width: 375px) {  
@@ -1516,6 +1614,55 @@ a {
     .margin-left-65 {
         margin-left: 55px;
     }
+
+    .span-d-none {
+        display: none;
+    }
+
+    .link-admin-pro {
+        color: #b4975a;
+        width: 12rem;
+        margin: 0;
+        font-size: 0.9rem;
+        font-weight: bold;
+        text-decoration: none !important;
+        padding-left: 0.8rem;
+        padding-right: 1rem;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        transition: 0.7s;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .div-email-login {
+        position: absolute;
+        font-size: .85rem;
+        box-shadow: 0 0.15rem 1.75rem 0 rgb(58 59 69 / 15%);
+        height: 147px;
+        width: 175px;
+        margin-top: 17px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: left;
+        padding-top: 15px;
+        line-height: 25px;
+        margin-left: -15px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: -112px;
+    }
+
+    .ul-nav-bar {
+        margin-left: 50px;
+        height: 4.375rem;
+        display: flex;
+        align-items: center;
+        padding: 0 .75rem;
+        padding-top: 1.3125rem;
+        padding-bottom: 0.3125rem;
+        text-align: center;
+        width: 18em;
+        font-size: 1.1rem;
+    }
 }
   
 @media (min-width:  376px) and (max-width: 576px) {
@@ -1833,6 +1980,55 @@ a {
     .margin-left-65 {
         margin-left: 65px;
     }
+
+    .span-d-none {
+        display: none;
+    }
+
+    .link-admin-pro {
+        color: #b4975a;
+        width: 12rem;
+        margin: 0;
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none !important;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        transition: 0.7s;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .div-email-login {
+        position: absolute;
+        font-size: .85rem;
+        box-shadow: 0 0.15rem 1.75rem 0 rgb(58 59 69 / 15%);
+        height: 147px;
+        width: 175px;
+        margin-top: 17px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: left;
+        padding-top: 15px;
+        line-height: 25px;
+        margin-left: -15px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: -107px;
+    }
+
+    .ul-nav-bar {
+        margin-left: 70px;
+        height: 4.375rem;
+        display: flex;
+        align-items: center;
+        padding: 0 .75rem;
+        padding-top: 1.3125rem;
+        padding-bottom: 0.3125rem;
+        text-align: center;
+        width: 18em;
+        font-size: 1.1rem;
+    }
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -2055,6 +2251,42 @@ a {
 
     .margin-left-65 {
         margin-left: 105px;
+    }
+
+    .span-d-none {
+        display: none;
+    }
+
+    .link-admin-pro {
+        color: #b4975a;
+        width: 12rem;
+        margin: 0;
+        font-size: 1rem;
+        font-weight: bold;
+        text-decoration: none !important;
+        padding-left: 1.5rem;
+        padding-right: 1rem;
+        padding-top: 0.3125rem;
+        padding-bottom: 0.3125rem;
+        transition: 0.7s;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .div-email-login {
+        position: absolute;
+        font-size: .85rem;
+        box-shadow: 0 0.15rem 1.75rem 0 rgb(58 59 69 / 15%);
+        height: 147px;
+        width: 175px;
+        margin-top: 17px;
+        border-radius: 10px;
+        background-color: white;
+        text-align: left;
+        padding-top: 15px;
+        line-height: 25px;
+        margin-left: -15px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: -102px;
     }
 }
   
