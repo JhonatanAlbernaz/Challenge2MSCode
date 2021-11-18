@@ -67,45 +67,94 @@
      <div id="layoutSidenav_nav"> 
       <nav class="nav-bar-lateral">
        <div class="flex-direction ">
-        
+        <div class="div-barra-lateral">
+          <a href="../Html/admin.html">
+            <span class="icones-barra-lateral"><i class="fas fa-th-large"></i></span>
+            <h3 class="margin-left-11"> Dashboard </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-user"></i></span>
+            <h3 class="margin-left-1px"> Clientes </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-file-invoice"></i></span>
+            <h3 class="margin-left-4px"> Pedidos </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-chart-line"></i></span>
+            <h3 class="margin-left-11"> Análise </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-envelope"></i></span>
+            <h3 class="margin-left-2"> Mensagem </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-boxes"></i></span>
+            <h3 class="margin-left-4"> Produtos </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-clipboard"></i></span>
+            <h3 class="margin-left-4px"> Relatórios </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-cog"></i></span>
+            <h3> Definições </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-plus"></i></span>
+            <h3> Adicionar </h3>
+           </a>
+           <a href="../Html/login.html">
+            <span class="icones-barra-lateral"><i class="fas fa-sign-out-alt"></i></span>
+            <h3> Sair </h3>
+           </a>
+        </div>
        </div>
       </nav>
      </div>
      <div id="layoutSidenav_content">
       <div class="div-layoutSidenav-content">
        <div class="row row-height-200">
-        <div class="col-lg-4 padding-left-40" id="col-4-pl-40">
+        <div class="col-lg-4 col-md-4 padding-left-40" id="col-4-pl-40">
 
          <div class="card box-shadow bg-white mb-3" style="max-width: 18rem;">
           <div class="card-body">
-           <i class="fas fa-ticket-alt icone-tickets"></i><br>
+           <i class="fas fa-ticket-alt icone-tickets" id="icone-tickets"></i><br>
            <span class="counter numero-de-tickets" data-count="2458"></span><br>
            <small class="card-title small-text-tickets"> Tickets abertos </small>
           </div>
          </div>
 
         </div>
-        <div class="col-lg-4 padding-left-40" id="segunda-col-4-pl-40">
+        <div class="col-lg-4 col-md-4 padding-left-40" id="segunda-col-4-pl-40">
          
          <div class="card box-shadow bg-white mb-3" style="max-width: 18rem;">
           <div class="card-body">
-           <i class="fas fa-ticket-alt icone-tickets"></i><br>
+           <i class="fas fa-ticket-alt icone-tickets" id="icone-2-tickets"></i><br>
            <span class="counter numero-de-tickets" data-count="284"></span><br>
            <small class="card-title small-2-text-tickets"> Tickets finalizados </small>
           </div>
          </div>
 
         </div>
-        <div class="col-lg-4 padding-left-40" id="terceira-col-4-pl-40">
+        <div class="col-lg-4 col-md-4 padding-left-40" id="terceira-col-4-pl-40">
 
          <div class="card box-shadow bg-white mb-3" style="max-width: 18rem;">
           <div class="card-body">
-           <i class="fas fa-ticket-alt icone-tickets"></i><br>
+           <i class="fas fa-ticket-alt icone-tickets" id="icone-3-tickets"></i><br>
            <span class="counter numero-de-tickets" data-count="98"></span><br>
            <small class="card-title small-3-text-tickets"> Tickets reabertos </small>
           </div>
          </div>
 
+        </div>
+       </div>
+       <div class="row row-height-515 row-d-none">
+        <div class="col-lg-6">
+         <div class="primeiro-grafico" id="curve_chart"></div>
+        </div>
+        <div class="col-lg-6">
+         <div class="segundo-grafico" id="piechart"></div>
         </div>
        </div>
       </div>
@@ -117,6 +166,8 @@
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
     <script src="../Js/app.js"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->

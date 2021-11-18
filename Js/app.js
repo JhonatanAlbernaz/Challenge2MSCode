@@ -266,6 +266,9 @@ function abrirImagemAvatar(){
     $("#segunda-col-4-pl-40").css("transition", "0.7s");
     $("#terceira-col-4-pl-40").css("padding-left", "75px");
     $("#terceira-col-4-pl-40").css("transition", "0.7s");
+    $("#icone-tickets").css("margin-left", "115px");
+    $("#icone-2-tickets").css("margin-left", "115px");
+    $("#icone-3-tickets").css("margin-left", "115px");
 	image_avatar = 1;
 }
 
@@ -278,7 +281,56 @@ function fecharImagemAvatar(){
     $("#segunda-col-4-pl-40").css("transition", "0.7s");
     $("#terceira-col-4-pl-40").css("padding-left", "40px");
     $("#terceira-col-4-pl-40").css("transition", "0.7s");
+    $("#icone-tickets").css("margin-left", "85px");
+    $("#icone-2-tickets").css("margin-left", "85px");
+    $("#icone-3-tickets").css("margin-left", "85px");
 	image_avatar = 0;
 }
 
 //============================================================================//
+
+google.charts.load('current', {'packages':['corechart']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+    var data = google.visualization.arrayToDataTable([
+        ['Day', 'Tickets abertos por dia'],
+        ['16/11/2021',  300],
+        ['17/11/2021',  480],
+        ['18/11/2021',  440],
+        ['19/11/2021',  528],
+        ['20/11/2021',  710],
+        
+    ]);
+
+    var options = {
+        title: 'Gráfico mensal com tickets abertos por dia',
+        curveType: 'function',
+        legend: { position: 'bottom' }
+    };
+
+    var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+    chart.draw(data, options);
+
+    var data = google.visualization.arrayToDataTable([
+        ['Task', 'Hours per Day'],
+        ['300 tickets abertos',7],
+        ['480 tickets abertos', 9],
+        ['440 tickets abertos', 8],
+        ['528 tickets abertos', 10],
+        ['710 tickets abertos', 18]
+    ]);
+
+    var options = {
+        title: 'A % de Tickets finalizados X Tickets abertos'
+    };
+
+    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+    chart.draw(data, options);
+
+}
+
+//============================================================================//
+
