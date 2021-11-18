@@ -260,12 +260,24 @@ $("#button-bars").on("click", function(e){
 function abrirImagemAvatar(){
     $("#layoutSidenav_nav").css("transform", "translateX(-15rem");
 	$("#layoutSidenav_content").css("margin-left", "-240px");
+    $("#col-4-pl-40").css("padding-left", "75px");
+    $("#col-4-pl-40").css("transition", "0.7s");
+    $("#segunda-col-4-pl-40").css("padding-left", "75px");
+    $("#segunda-col-4-pl-40").css("transition", "0.7s");
+    $("#terceira-col-4-pl-40").css("padding-left", "75px");
+    $("#terceira-col-4-pl-40").css("transition", "0.7s");
 	image_avatar = 1;
 }
 
 function fecharImagemAvatar(){
     $("#layoutSidenav_nav").css("transform", "translateX(0rem");
 	$("#layoutSidenav_content").css("margin-left", "0px");
+    $("#col-4-pl-40").css("padding-left", "40px");
+    $("#col-4-pl-40").css("transition", "0.7s");
+    $("#segunda-col-4-pl-40").css("padding-left", "40px");
+    $("#segunda-col-4-pl-40").css("transition", "0.7s");
+    $("#terceira-col-4-pl-40").css("padding-left", "40px");
+    $("#terceira-col-4-pl-40").css("transition", "0.7s");
 	image_avatar = 0;
 }
 

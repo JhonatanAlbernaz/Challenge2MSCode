@@ -891,9 +891,59 @@ a {
 .div-layoutSidenav-content {
     background-color: #0061f2 !important;
     background-image: linear-gradient( 135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
-    padding-top: 6rem !important;
+    padding-top: 4.2rem !important;
     padding-bottom: 6rem !important;
     height: 255px;
+}
+
+.row-height-200 {
+    height: 200px;
+    margin-left: 0px;
+    width: 100%;
+}
+
+.padding-left-40 {
+    padding-left: 40px;
+}
+
+.icone-tickets {
+    color: #b4975a;
+    font-size: 20px;
+    margin-left: 118px;
+    margin-bottom: 10px;
+}
+
+.small-text-tickets {
+    font-size: .7rem;
+    color: #4e73df;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+}
+
+.small-2-text-tickets {
+    font-size: .7rem;
+    color: #1cc88a;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+}
+
+.small-3-text-tickets {
+    font-size: .7rem;
+    color: #36b9cc;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .25rem;
+}
+
+.numero-de-tickets {
+    font-family: 'Montagu Slab', serif;
+    font-size: 20px;
+}
+
+.box-shadow {
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(33 40 50 / 15%);
 }
 
 @media (max-width: 320px) {
