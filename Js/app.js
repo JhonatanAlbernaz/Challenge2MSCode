@@ -395,3 +395,29 @@ for (i = 0; i < closebtns.length; i++) {
     this.parentElement.style.display = 'none';
   });
 }
+
+//============================================================================//
+
+var menu_aberto = 0;
+
+$("#botao-bars").on("click", function(e){
+
+	if(menu_aberto== 0){
+		abrirDivLogin();
+	}else{
+		fecharDivLogin();
+	}
+	
+});
+
+function abrirDivLogin(){
+	$("#layoutSidenav_nav_responsivo").show(2500);
+	menu_aberto = 1;
+}
+
+function fecharDivLogin(){
+	$("#layoutSidenav_nav_responsivo").hide(2500);
+	menu_aberto = 0;
+}
+
+//============================================================================//
