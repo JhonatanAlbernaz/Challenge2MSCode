@@ -269,6 +269,32 @@ function abrirImagemAvatar(){
     $("#icone-tickets").css("margin-left", "115px");
     $("#icone-2-tickets").css("margin-left", "115px");
     $("#icone-3-tickets").css("margin-left", "115px");
+    $("#div-icone").css("margin-left", "765px");
+    $("#div-icone").css("transition", "0.7s");
+    $("#div-icone-2").css("margin-left", "765px");
+    $("#div-icone-2").css("transition", "0.7s");
+    $("#div-icone-3").css("margin-left", "765px");
+    $("#div-icone-3").css("transition", "0.7s");
+    $("#div-icone-4").css("margin-left", "765px");
+    $("#div-icone-4").css("transition", "0.7s");
+    $("#div-icone-5").css("margin-left", "765px");
+    $("#div-icone-5").css("transition", "0.7s");
+    $("#div-icone-6").css("margin-left", "765px");
+    $("#div-icone-6").css("transition", "0.7s");
+    $("#cliente").css("margin-left", "390px");
+    $("#cliente").css("transition", "0.7s");
+
+    $("#administrador").css("margin-left", "365px");
+    $("#administrador").css("transition", "0.7s");
+
+    $("#cliente-2").css("margin-left", "390px");
+    $("#cliente-2").css("transition", "0.7s");
+    $("#cliente-3").css("margin-left", "390px");
+    $("#cliente-3").css("transition", "0.7s");
+    $("#cliente-4").css("margin-left", "390px");
+    $("#cliente-4").css("transition", "0.7s");
+    $("#cliente-5").css("margin-left", "390px");
+    $("#cliente-5").css("transition", "0.7s");
 	image_avatar = 1;
 }
 
@@ -284,6 +310,32 @@ function fecharImagemAvatar(){
     $("#icone-tickets").css("margin-left", "85px");
     $("#icone-2-tickets").css("margin-left", "85px");
     $("#icone-3-tickets").css("margin-left", "85px");
+    $("#div-icone").css("margin-left", "610px");
+    $("#div-icone").css("transition", "0.7s");
+    $("#div-icone-2").css("margin-left", "610px");
+    $("#div-icone-2").css("transition", "0.7s");
+    $("#div-icone-3").css("margin-left", "610px");
+    $("#div-icone-3").css("transition", "0.7s");
+    $("#div-icone-4").css("margin-left", "610px");
+    $("#div-icone-4").css("transition", "0.7s");
+    $("#div-icone-5").css("margin-left", "610px");
+    $("#div-icone-5").css("transition", "0.7s");
+    $("#div-icone-6").css("margin-left", "610px");
+    $("#div-icone-6").css("transition", "0.7s");
+    $("#cliente").css("margin-left", "315px");
+    $("#cliente").css("transition", "0.7s");
+
+    $("#administrador").css("margin-left", "295px");
+    $("#administrador").css("transition", "0.7s");
+
+    $("#cliente-2").css("margin-left", "315px");
+    $("#cliente-2").css("transition", "0.7s");
+    $("#cliente-3").css("margin-left", "315px");
+    $("#cliente-3").css("transition", "0.7s");
+    $("#cliente-4").css("margin-left", "315px");
+    $("#cliente-4").css("transition", "0.7s");
+    $("#cliente-5").css("margin-left", "315px");
+    $("#cliente-5").css("transition", "0.7s");
 	image_avatar = 0;
 }
 
@@ -315,22 +367,31 @@ google.charts.load('current', {'packages':['corechart']});
 
     var data = google.visualization.arrayToDataTable([
         ['Task', 'Hours per Day'],
-        ['300 tickets abertos',7],
-        ['480 tickets abertos', 9],
-        ['440 tickets abertos', 8],
+        ['300 tickets abertos',     7],
+        ['480 tickets abertos',      9],
+        ['440 tickets abertos',  8],
         ['528 tickets abertos', 10],
-        ['710 tickets abertos', 18]
-    ]);
+        ['710 tickets abertos',    18]
+      ]);
 
-    var options = {
-        title: 'A % de Tickets finalizados X Tickets abertos'
-    };
+      var options = {
+        title: 'A % de Tickets finalizados X Tickets abertos',
+        is3D: true,
+      };
 
-    var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-    chart.draw(data, options);
+      var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+      chart.draw(data, options);
 
 }
 
 //============================================================================//
 
+var closebtns = document.getElementsByClassName("close");
+var i;
+
+/* Loop through the elements, and hide the parent, when clicked on */
+for (i = 0; i < closebtns.length; i++) {
+  closebtns[i].addEventListener("click", function() {
+    this.parentElement.style.display = 'none';
+  });
+}
