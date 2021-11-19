@@ -421,3 +421,37 @@ function fecharDivLogin(){
 }
 
 //============================================================================//
+
+function mostrarOcultarSenha() {
+    var senha=document.getElementById("senha");
+    if(senha.type=="password") {
+        senha.type="text";
+    }else {
+        senha.type="password";
+    }
+}
+
+//============================================================================//
+
+function mostrarOcultarSenhaInput() {
+    var senha=document.getElementById("input-senha");
+    if(senha.type=="password") {
+        senha.type="text";
+    }else {
+        senha.type="password";
+    }
+}
+
+//============================================================================//
+
+
+function mostrarOcultarSenhaInput2() {
+    var senha=document.getElementById("input-senha-1");
+    if(senha.type=="password") {
+        senha.type="text";
+    }else {
+        senha.type="password";
+    }
+}
+
+//============================================================================//
