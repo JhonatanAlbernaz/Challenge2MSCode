@@ -1246,7 +1246,7 @@ a {
     margin: 1rem 0;
     cursor: pointer;
     transition: .5s;
-    padding-top: 10px;
+    padding-top: 0px;
     margin-left: 115px;
     margin-top: 65px;
 }
