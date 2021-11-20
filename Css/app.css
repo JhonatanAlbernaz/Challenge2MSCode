@@ -1251,6 +1251,68 @@ a {
     margin-top: 65px;
 }
 
+.height-500 {
+    height: 745px;
+    margin-left: 0px;
+    width: 100%;
+    background-color: #455bdb;
+    padding-top: 15px;
+    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%);
+}
+
+.categorias-de-tickets {
+    background: #F5F5FF;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: .3s;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.categorias-de-tickets span {
+    color: #67349D;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    margin-left: 0px;
+    margin-top: -30px;
+    font-family: 'Lora', serif;
+}
+
+.fluxo-de-trabalho {
+    font-size: 17px;
+    font-weight: bold;
+    color: #bca26b;
+    position: absolute;
+    margin-left: 353px;
+    margin-top: -30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.div-editar-excluir-ticket {
+    display: flex !important;
+    position: absolute;
+    margin-left: 795px;
+    margin-top: -30px;
+}
+
+.div-adicionar-ticket {
+    display: flex !important;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: -30px;
+}
+
+.color-red {
+    color: #dc413a !important;
+    font-weight: bold !important;
+}
+
+.color-black {
+    color: #000!important;
+    font-weight: bold !important;
+}
+
 @media (max-width: 320px) {
     .row-responsivo {
         display: block;
