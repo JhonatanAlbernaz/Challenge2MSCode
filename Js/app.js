@@ -455,3 +455,18 @@ function mostrarOcultarSenhaInput2() {
 }
 
 //============================================================================//
+
+function iniciarModal(modalID) {
+    var modal = document.getElementById(modalID);
+    modal.classList.add("mostrar");
+    modal.addEventListener("click", (e) => {
+        if(e.target.id == modalID || e.target.className == "fechar") {
+            modal.classList.remove("mostrar");
+        }
+    });
+}
+
+var logo = document.querySelector(".action_btn");
+logo.addEventListener("click", () => iniciarModal("modal-editar"));
+
+//============================================================================//
