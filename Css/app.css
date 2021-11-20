@@ -1313,6 +1313,8 @@ a {
     font-weight: bold !important;
 }
 
+
+
 @media (max-width: 320px) {
     .row-responsivo {
         display: block;
@@ -1856,6 +1858,34 @@ a {
         padding-top: 5px;
         margin-left: 35px;
         margin-top: 65px;
+    }
+
+    .div-adicionar-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 235px;
+        margin-top: -30px;
+    }
+
+    .div-editar-excluir-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 195px;
+        margin-top: -30px;
+    }
+
+    .fluxo-de-trabalho {
+        display: none;
+    }
+
+    .categorias-de-tickets span {
+        color: #67349D;
+        font-weight: 400;
+        font-size: 15px;
+        position: absolute;
+        margin-left: -10px;
+        margin-top: -24px;
+        font-family: 'Lora', serif;
     }
 }
   
@@ -2406,6 +2436,40 @@ a {
         margin-left: 35px;
         margin-top: 65px;
     }
+
+    .div-adicionar-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 295px;
+        margin-top: -30px;
+    }
+
+    .div-editar-excluir-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 255px;
+        margin-top: -30px;
+    }
+
+    .fluxo-de-trabalho {
+        font-size: 12px;
+        font-weight: bold;
+        color: #bca26b;
+        position: absolute;
+        margin-left: 114px;
+        margin-top: -25px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .categorias-de-tickets span {
+        color: #67349D;
+        font-weight: 400;
+        font-size: 13px;
+        position: absolute;
+        margin-left: -10px;
+        margin-top: -24px;
+        font-family: 'Lora', serif;
+    }
 }
   
 @media (min-width:  376px) and (max-width: 576px) {
@@ -2947,6 +3011,41 @@ a {
         margin-left: 40px;
         margin-top: 65px;
     }
+    
+    .div-adicionar-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 345px;
+        margin-top: -30px;
+    }
+
+    .div-editar-excluir-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: -30px;
+    }
+
+    .fluxo-de-trabalho {
+        font-size: 12px;
+        font-weight: bold;
+        color: #bca26b;
+        position: absolute;
+        margin-left: 155px;
+        margin-top: -25px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .categorias-de-tickets span {
+        color: #67349D;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        margin-left: 0px;
+        margin-top: -27px;
+        font-family: 'Lora', serif;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -3365,6 +3464,30 @@ a {
         margin-top: 65px;
     }
 
+    .div-adicionar-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 635px;
+        margin-top: -30px;
+    }
+
+    .div-editar-excluir-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 595px;
+        margin-top: -30px;
+    }
+
+    .fluxo-de-trabalho {
+        font-size: 17px;
+        font-weight: bold;
+        color: #bca26b;
+        position: absolute;
+        margin-left: 260px;
+        margin-top: -30px;
+        font-family: 'Playfair Display', serif;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -3685,6 +3808,30 @@ a {
         padding-top: 10px;
         margin-left: 85px;
         margin-top: 65px;
+    }
+
+    .div-editar-excluir-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 670px;
+        margin-top: -30px;
+    }
+
+    .fluxo-de-trabalho {
+        font-size: 17px;
+        font-weight: bold;
+        color: #bca26b;
+        position: absolute;
+        margin-left: 315px;
+        margin-top: -30px;
+        font-family: 'Playfair Display', serif;
+    }
+
+    .div-adicionar-ticket {
+        display: flex !important;
+        position: absolute;
+        margin-left: 710px;
+        margin-top: -30px;
     }
 
 }
