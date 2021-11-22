@@ -1408,7 +1408,102 @@ a {
     margin-top: 5px;
 }
 
+.modal-editar-ticket-container {
+    height: 100%;
+    width: 100%;
+    background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
 
+.modal-editar-ticket-container.mostrar-modal-editar {
+    display: flex;
+}
+
+.modal-editar-ticket {
+    background: white;
+    width: 60%;
+    height: 90%;
+    min-width: 300px;
+    padding: 40px;
+    border: 10px solid #988b7a;
+    box-shadow: 0 0 0 10px white;
+    position: relative;
+    display: block;
+    margin-top: 35px;
+    margin-left: 274px;
+}
+
+@keyframes modal-editar-ticket {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.mostrar-modal-editar .modal-editar-ticket {
+    animation: div-modal .5s;
+}
+
+.fechar-modal {
+    position: absolute;
+    font-size: 1.2em;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 4px solid white;
+    background: #988b7a;
+    color: white;
+    font-family: "PT Mono", monospace;
+    cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgb(0, 0, 0, .3);
+}
+
+.modal-editar-ticket h3 {
+    color: #333;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    padding-top: 0px;
+    font-family: 'Zen Antique Soft', serif;
+    margin-left: 5px;
+    text-align: center;
+}
+
+.widht-590 {
+    width: 590px !important;
+}
+
+.botao-modal-novo-ticket {
+    display: block;
+    width: 65%;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    background-image: linear-gradient(to right, #806f6f, #38d39f, #b4975a);
+    background-size: 200%;
+    font-size: 1.2rem;
+    color: #fff;
+    font-family: 'Zen Old Mincho', serif;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    transition: .5s;
+    padding-top: 0px;
+    margin-left: 115px;
+    margin-top: 5px;
+}
 
 .icone-editar-ticket {
     width: 32px;
@@ -2015,6 +2110,30 @@ a {
         margin-left: 5px;
         text-align: center;
     }
+
+    .modal-editar-ticket {
+        background: white;
+        width: 60%;
+        height: 90%;
+        min-width: 300px;
+        padding: 40px;
+        border: 10px solid #988b7a;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+        display: block;
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    .modal-editar-ticket h3 {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        padding-top: 0px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: 5px;
+        text-align: center;
+    }
 }
   
 @media (min-width: 321px) and (max-width: 375px) {  
@@ -2608,6 +2727,30 @@ a {
         margin-left: 5px;
         text-align: center;
     }
+
+    .modal-editar-ticket {
+        background: white;
+        width: 60%;
+        height: 90%;
+        min-width: 300px;
+        padding: 40px;
+        border: 10px solid #988b7a;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+        display: block;
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    .modal-editar-ticket h3 {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        padding-top: 0px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: 5px;
+        text-align: center;
+    }
 }
   
 @media (min-width:  376px) and (max-width: 576px) {
@@ -3194,6 +3337,30 @@ a {
         text-align: center;
     }
 
+    .modal-editar-ticket {
+        background: white;
+        width: 60%;
+        height: 90%;
+        min-width: 300px;
+        padding: 40px;
+        border: 10px solid #988b7a;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+        display: block;
+        margin-top: 35px;
+        margin-left: 5px;
+    }
+
+    .modal-editar-ticket h3 {
+        color: #333;
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        padding-top: 0px;
+        font-family: 'Zen Antique Soft', serif;
+        margin-left: 5px;
+        text-align: center;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -3636,6 +3803,20 @@ a {
         font-family: 'Playfair Display', serif;
     }
 
+    .modal-editar-ticket {
+        background: white;
+        width: 60%;
+        height: 90%;
+        min-width: 300px;
+        padding: 40px;
+        border: 10px solid #988b7a;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+        display: block;
+        margin-top: 35px;
+        margin-left: 10px;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -3980,6 +4161,20 @@ a {
         position: absolute;
         margin-left: 710px;
         margin-top: -30px;
+    }
+
+    .modal-editar-ticket {
+        background: white;
+        width: 60%;
+        height: 90%;
+        min-width: 300px;
+        padding: 40px;
+        border: 10px solid #988b7a;
+        box-shadow: 0 0 0 10px white;
+        position: relative;
+        display: block;
+        margin-top: 35px;
+        margin-left: 10px;
     }
 
 }

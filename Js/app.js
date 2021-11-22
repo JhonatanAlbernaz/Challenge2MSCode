@@ -486,6 +486,17 @@ plus.addEventListener("click", () => iniciarModalNovoTicket("modal-abrir-ticket"
 
 //============================================================================//
 
+function modalEditarTicket(editarTicket) {
+    const editTicket = document.getElementById(editarTicket);
+    editTicket.classList.add("mostrar-modal-editar");
+    editTicket.addEventListener("click", (e) => {
+        if(e.target.id == editarTicket || e.target.className == "fechar-modal") {
+            editTicket.classList.remove("mostrar-modal-editar")
+        }
+    });
+}
 
+const editar = document.querySelector(".icone-editar-ticket");
+editar.addEventListener("click", () => modalEditarTicket("modal-editar-ticket"));
 
 //============================================================================//
