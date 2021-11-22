@@ -471,6 +471,21 @@ logo.addEventListener("click", () => iniciarModal("modal-editar"));
 
 //============================================================================//
 
+function iniciarModalNovoTicket(modalTicket) {
+    const divModal = document.getElementById(modalTicket);
+    divModal.classList.add("mostrar-modal");
+    divModal.addEventListener("click", (e) => {
+        if(e.target.id == modalTicket || e.target.className == "modal-fechar") {
+            divModal.classList.remove("mostrar-modal");
+        }
+    });
+}
+
+const plus = document.querySelector(".action_btn_plus");
+plus.addEventListener("click", () => iniciarModalNovoTicket("modal-abrir-ticket"));
+
+//============================================================================//
+
 
 
 //============================================================================//
