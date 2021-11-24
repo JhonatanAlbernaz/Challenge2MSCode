@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="../Css/app.css" rel="stylesheet">
+
+    <title> E-mail </title>
+  </head>
+  <body>
+    
+    <nav class="nav-bar-admin">
+     <div class="margin-left-5 div-d-none">
+      <button class="btn-button cursor-pointer" id="button-bars">
+       <i class="fas fa-bars"></i>
+      </button>
+     </div>
+     <a class="link-admin-pro" href="../Html/admin.html"> Admin pro </a>
+     <form class="form-group span-d-none">
+      <div class="form-widht-div">
+       <input type="text" class="form-control form-widht" placeholder="Procurar...">
+       <div class="">
+        <button class="btn-button form-div-search">
+         <i class="fas fa-search"></i>
+        </button>
+       </div>
+      </div>
+     </form>
+     <ul class="ul-nav-bar">
+      <li class="margin-right-25">
+       <a href="#">
+        <i class="fas fa-bell"></i>
+       </a>
+      </li>
+      <li> 
+       <a href="#">
+        <i class="fas fa-envelope"></i>
+       </a>
+      </li>
+      <div class="div-height"> </div>
+      <li>
+       <a class="Jhonatan-a" href="#" id="jhonatan-tag-a">
+        <span class="span-d-none"> Jhonatan Albernaz </span>
+        <img class="img-nav-bar" src="https://startbootstrap.github.io/startbootstrap-sb-admin-2/img/undraw_profile.svg">
+       </a>
+       <div class="div-email-login display-none-div" id="div-email">
+        <a class="padding-left-10" href="#"><i class="fas fa-user"></i><span class="span-padding-left"> Perfil </span></a><br>
+        <a class="padding-left-10" href="#"><i class="fas fa-cogs"></i><span class="span-padding-left-5"> Definições  </span></a><br>
+        <a class="padding-left-10" href="#"><i class="fas fa-bars"></i><span class="span-padding-left-11"> Registro de atividade </span></a>
+        <div class="div-widht"> </div>
+        <a class="padding-left-10" href="../Html/login.html"><i class="fas fa-sign-out-alt"></i><span class="span-padding-left"> Sair </span></a>
+       </div>
+      </li>
+      <div class="margin-left-5 div-dnone-2">
+        <button class="btn-button cursor-pointer" id="botao-bars">
+         <i class="fas fa-bars"></i>
+        </button>
+       </div>
+     </ul>
+    </nav>
+
+    <section>
+     <div id="layoutSidenav_nav"> 
+      <nav class="nav-bar-lateral">
+       <div class="flex-direction ">
+        <div class="div-barra-lateral">
+          <a href="../Html/admin.html">
+            <span class="icones-barra-lateral"><i class="fas fa-th-large"></i></span>
+            <h3 class="margin-left-11"> Dashboard </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-user"></i></span>
+            <h3 class="margin-left-1px"> Clientes </h3>
+           </a>
+           <a href="../Html/e-mail.html">
+            <span class="icones-barra-lateral"><i class="fas fa-file-invoice"></i></span>
+            <h3 class="margin-left-4px"> E-mail </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-chart-line"></i></span>
+            <h3 class="margin-left-11"> Análise </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-envelope"></i></span>
+            <h3 class="margin-left-2"> Mensagem </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-boxes"></i></span>
+            <h3 class="margin-left-4"> Produtos </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-clipboard"></i></span>
+            <h3 class="margin-left-4px"> Relatórios </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-cog"></i></span>
+            <h3> Definições </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-plus"></i></span>
+            <h3> Adicionar </h3>
+           </a>
+           <a href="../Html/login.html">
+            <span class="icones-barra-lateral"><i class="fas fa-sign-out-alt"></i></span>
+            <h3> Sair </h3>
+           </a>
+        </div>
+       </div>
+      </nav>
+     </div>
+
+     <div id="layoutSidenav_nav_responsivo">
+      <nav class="nav-bar-lateral-responsivo">
+       <div class="flex-direction-responsivo">
+        <div class="div-barra-lateral">
+          <a href="../Html/admin.html">
+            <span class="icones-barra-lateral"><i class="fas fa-th-large"></i></span>
+            <h3 class="margin-left-11"> Dashboard </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-user"></i></span>
+            <h3 class="margin-left-1px"> Clientes </h3>
+           </a>
+           <a href="../Html/e-mail.html">
+            <span class="icones-barra-lateral"><i class="fas fa-file-invoice"></i></span>
+            <h3 class="margin-left-4px"> E-mail </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-chart-line"></i></span>
+            <h3 class="margin-left-11"> Análise </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-envelope"></i></span>
+            <h3 class="margin-left-2"> Mensagem </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-boxes"></i></span>
+            <h3 class="margin-left-4"> Produtos </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="far fa-clipboard"></i></span>
+            <h3 class="margin-left-4px"> Relatórios </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-cog"></i></span>
+            <h3> Definições </h3>
+           </a>
+           <a href="#">
+            <span class="icones-barra-lateral"><i class="fas fa-plus"></i></span>
+            <h3> Adicionar </h3>
+           </a>
+           <a href="../Html/login.html">
+            <span class="icones-barra-lateral"><i class="fas fa-sign-out-alt"></i></span>
+            <h3> Sair </h3>
+           </a>
+        </div>
+       </div>
+      </nav>
+     </div>
+
+     <div id="layoutSidenav_content">
+      <div class="div-height-575px">
+
+       <div class="row row-height-600px">
+        <div class="col-lg-6 d-none-imagens">
+         <img class="wave-png" src="../Imagens/wave.png">
+         <img class="imagem-bg" src="../Imagens/banner-image-2.png" id="image-animation">
+        </div>
+        <div class="col-lg-6">
+
+         <div class="div-box-shadow-login">
+          <h2> Bem vindo! </h2>
+          <p class="descricao-do-email-de-observacao">
+           Estamos entusiasmados por você começar. Primeiro, você precisa confirmar sua conta. Basta preencher a campo
+           abaixo com o seu email.
+          </p>
+   
+          <div class="div-login-content margin-top-20 height-590">
+           <form class="form" action="login.html">
+              
+            <div class="input-div one">
+             <div class="i">
+              <i class="fas fa-user"></i>
+             </div>
+             <div class="div">
+              <h5> E-mail </h5>
+              <input type="email" class="input">
+             </div>
+            </div>
+    
+           </form>
+          </div>
+   
+          <a href="../Html/admin.html" class="btn margin-left-7 margin-top-40" value="Login"> Logar </a>
+   
+         </div> 
+
+        </div>
+       </div>
+
+      </div>
+     </div>
+    </section>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    
+    <script src="../Js/app.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

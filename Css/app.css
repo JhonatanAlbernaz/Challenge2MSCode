@@ -1528,6 +1528,44 @@ a {
     padding-top: 0px;
 }
 
+.div-height-575px {
+    background-color: #0061f2 !important;
+    background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%) !important;
+    padding-top: 4.2rem !important;
+    padding-bottom: 6rem !important;
+    height: 575px;
+}
+
+.row-height-600px {
+    box-shadow: 0 0.1rem 1rem rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    height: 575px;
+    background-color: #F7F9FE;
+    width: 95%;
+    margin-left: 35px;
+    margin-top: -25px;
+}
+
+.wave-png {
+    bottom: 0;
+    left: 0;
+    height: 510px;
+    z-index: -1;
+    margin-top: 64px;
+    margin-left: -12px;
+    border-bottom: 120px;
+}
+
+.descricao-do-email-de-observacao {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    width: 450px;
+    margin-left: 65px;
+    color: #b4975a;
+}
+
 @media (max-width: 320px) {
     .row-responsivo {
         display: block;
