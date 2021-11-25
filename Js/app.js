@@ -283,10 +283,8 @@ function abrirImagemAvatar(){
     $("#div-icone-6").css("transition", "0.7s");
     $("#cliente").css("margin-left", "390px");
     $("#cliente").css("transition", "0.7s");
-
     $("#administrador").css("margin-left", "365px");
     $("#administrador").css("transition", "0.7s");
-
     $("#cliente-2").css("margin-left", "390px");
     $("#cliente-2").css("transition", "0.7s");
     $("#cliente-3").css("margin-left", "390px");
@@ -295,6 +293,10 @@ function abrirImagemAvatar(){
     $("#cliente-4").css("transition", "0.7s");
     $("#cliente-5").css("margin-left", "390px");
     $("#cliente-5").css("transition", "0.7s");
+    $("#descricao-email").css("margin-left", "65px");
+    $("#descricao-email").css("transition", "0.7s");
+    $("#form-widht-485").css("width", "485px");
+    $("#form-widht-485").css("transition", "0.7s");
 	image_avatar = 1;
 }
 
@@ -324,10 +326,8 @@ function fecharImagemAvatar(){
     $("#div-icone-6").css("transition", "0.7s");
     $("#cliente").css("margin-left", "315px");
     $("#cliente").css("transition", "0.7s");
-
     $("#administrador").css("margin-left", "295px");
     $("#administrador").css("transition", "0.7s");
-
     $("#cliente-2").css("margin-left", "315px");
     $("#cliente-2").css("transition", "0.7s");
     $("#cliente-3").css("margin-left", "315px");
@@ -336,6 +336,10 @@ function fecharImagemAvatar(){
     $("#cliente-4").css("transition", "0.7s");
     $("#cliente-5").css("margin-left", "315px");
     $("#cliente-5").css("transition", "0.7s");
+    $("#descricao-email").css("margin-left", "10px");
+    $("#descricao-email").css("transition", "0.7s");
+    $("#form-widht-485").css("width", "380px");
+    $("#form-widht-485").css("transition", "0.7s");
 	image_avatar = 0;
 }
 
