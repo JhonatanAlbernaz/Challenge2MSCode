@@ -297,6 +297,18 @@ function abrirImagemAvatar(){
     $("#descricao-email").css("transition", "0.7s");
     $("#form-widht-485").css("width", "485px");
     $("#form-widht-485").css("transition", "0.7s");
+    $("#div-icones").css("margin-left", "785px");
+    $("#div-icones").css("transition", "0.7s");
+    $("#div-icones-2").css("margin-left", "785px");
+    $("#div-icones-2").css("transition", "0.7s");
+    $("#div-icones-3").css("margin-left", "785px");
+    $("#div-icones-3").css("transition", "0.7s");
+    $("#div-icones-4").css("margin-left", "785px");
+    $("#div-icones-4").css("transition", "0.7s");
+    $("#div-icones-5").css("margin-left", "785px");
+    $("#div-icones-5").css("transition", "0.7s");
+    $("#div-icones-6").css("margin-left", "785px");
+    $("#div-icones-6").css("transition", "0.7s");
 	image_avatar = 1;
 }
 
@@ -340,6 +352,18 @@ function fecharImagemAvatar(){
     $("#descricao-email").css("transition", "0.7s");
     $("#form-widht-485").css("width", "380px");
     $("#form-widht-485").css("transition", "0.7s");
+    $("#div-icones").css("margin-left", "760px");
+    $("#div-icones").css("transition", "0.7s");
+    $("#div-icones-2").css("margin-left", "760px");
+    $("#div-icones-2").css("transition", "0.7s");
+    $("#div-icones-3").css("margin-left", "760px");
+    $("#div-icones-3").css("transition", "0.7s");
+    $("#div-icones-4").css("margin-left", "760px");
+    $("#div-icones-4").css("transition", "0.7s");
+    $("#div-icones-5").css("margin-left", "760px");
+    $("#div-icones-5").css("transition", "0.7s");
+    $("#div-icones-6").css("margin-left", "760px");
+    $("#div-icones-6").css("transition", "0.7s");
 	image_avatar = 0;
 }
 
@@ -502,5 +526,20 @@ function modalEditarTicket(editarTicket) {
 
 const editar = document.querySelector(".icone-editar-ticket");
 editar.addEventListener("click", () => modalEditarTicket("modal-editar-ticket"));
+
+//============================================================================//
+
+function modalObservacoes(observacoes) {
+    const ticketObservacoes = document.getElementById(observacoes);
+    ticketObservacoes.classList.add("mostrar-modal-observacoes");
+    ticketObservacoes.addEventListener("click", (e) => {
+        if(e.target.id == observacoes || e.target.className == "fechar-modal-observacoes") {
+            ticketObservacoes.classList.remove("mostrar-modal-observacoes")
+        }
+    });
+}
+
+const obs = document.querySelector(".action-pen");
+obs.addEventListener("click", () => modalObservacoes("modal-observacoes-ticket"));
 
 //============================================================================//
