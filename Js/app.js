@@ -309,6 +309,10 @@ function abrirImagemAvatar(){
     $("#div-icones-5").css("transition", "0.7s");
     $("#div-icones-6").css("margin-left", "785px");
     $("#div-icones-6").css("transition", "0.7s");
+    $("#widht-435").css("width", "540px");
+    $("#widht-435").css("margin-left", "23px");
+    $("#widht-435").css("margin-top", "120px");
+    $("#widht-435").css("transition", "0.7s");
 	image_avatar = 1;
 }
 
@@ -364,6 +368,10 @@ function fecharImagemAvatar(){
     $("#div-icones-5").css("transition", "0.7s");
     $("#div-icones-6").css("margin-left", "760px");
     $("#div-icones-6").css("transition", "0.7s");
+    $("#widht-435").css("width", "435px");
+    $("#widht-435").css("margin-left", "20px");
+    $("#widht-435").css("margin-top", "120px");
+    $("#widht-435").css("transition", "0.7s");
 	image_avatar = 0;
 }
 

@@ -1598,6 +1598,22 @@ a {
     text-align: center;
 }
 
+.div-box-shadow-email p {
+    text-align: center;
+    margin-top: 45px;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    margin-left: -1px;
+    margin-bottom: 85px;
+    color: #b4975a;
+}
+
+.widht-435px {
+    width: 435px;
+    margin-left: 20px;
+    margin-top: 120px;
+}
+
 .modal-observacoes-ticket-container {
     height: 100%;
     width: 100%;
@@ -2505,6 +2521,13 @@ a {
         width: 20px;
         background-color: #eee;
     }
+
+    .widht-435px {
+        width: 240px;
+        margin-left: 14px;
+        margin-top: 120px;
+        transition: all 0.7s ease 0s;
+    }
 }
   
 @media (min-width: 321px) and (max-width: 375px) {  
@@ -3226,6 +3249,13 @@ a {
         height: 20px;
         width: 20px;
         background-color: #eee;
+    }
+
+    .widht-435px {
+        width: 295px;
+        margin-left: 10px;
+        margin-top: 120px;
+        transition: all 0.7s ease 0s;
     }
 }
   
@@ -3962,6 +3992,13 @@ a {
         background-color: #eee;
     }
 
+    .widht-435px {
+        width: 315px;
+        margin-left: 20px;
+        margin-top: 120px;
+        transition: all 0.7s ease 0s;
+    }
+
 }
   
 @media (min-width: 577px) and (max-width: 768px) {
@@ -4501,6 +4538,13 @@ a {
         text-align: center;
     }
 
+    .widht-435px {
+        width: 630px;
+        margin-left: 19px;
+        margin-top: 120px;
+        transition: all 0.7s ease 0s;
+    }
+
 }
   
 @media (min-width: 769px) and (max-width: 992px) {
@@ -4945,6 +4989,13 @@ a {
         font-family: 'Zen Antique Soft', serif;
         margin-left: 5px;
         text-align: center;
+    }
+
+    .widht-435px {
+        width: 395px;
+        margin-left: 20px;
+        margin-top: 120px;
+        transition: all 0.7s ease 0s;
     }
 
 }
